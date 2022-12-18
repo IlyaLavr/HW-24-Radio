@@ -13,6 +13,7 @@
 		09555422294F8AC3005D5377 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09555421294F8AC3005D5377 /* Preview Assets.xcassets */; };
 		09555429294F8E64005D5377 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09555428294F8E64005D5377 /* Model.swift */; };
 		0955542B294F8F00005D5377 /* BigSections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0955542A294F8F00005D5377 /* BigSections.swift */; };
+		0955542D294F9299005D5377 /* MusicPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0955542C294F9299005D5377 /* MusicPlayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		09555421294F8AC3005D5377 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		09555428294F8E64005D5377 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		0955542A294F8F00005D5377 /* BigSections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigSections.swift; sourceTree = "<group>"; };
+		0955542C294F9299005D5377 /* MusicPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				09555420294F8AC3005D5377 /* Preview Content */,
 				09555428294F8E64005D5377 /* Model.swift */,
 				0955542A294F8F00005D5377 /* BigSections.swift */,
+				0955542C294F9299005D5377 /* MusicPlayer.swift */,
 			);
 			path = "HW-24-Radio";
 			sourceTree = "<group>";
@@ -146,6 +149,7 @@
 				09555429294F8E64005D5377 /* Model.swift in Sources */,
 				0955541D294F8AB8005D5377 /* ContentView.swift in Sources */,
 				0955542B294F8F00005D5377 /* BigSections.swift in Sources */,
+				0955542D294F9299005D5377 /* MusicPlayer.swift in Sources */,
 				0955541B294F8AB8005D5377 /* HW_24_RadioApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
