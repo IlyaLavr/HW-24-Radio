@@ -15,26 +15,26 @@ struct MusicPlayerView: View {
             Rectangle()
                 .fill(.gray)
                 .frame(height: 69, alignment: .bottom)
-                .opacity(0.7)
+                .opacity(0.9)
             HStack {
-                Image(systemName: "play.square.fill")
+                Image(systemName: Strings.MusicPlayer.rightImage )
                     .resizable()
                     .aspectRatio(contentMode: .fill)
                     .frame(width: 50, height: 50)
                     .cornerRadius(7)
                     .opacity(0.3)
     
-                Text("Не исполняется")
+                Text(Strings.MusicPlayer.textPlayer)
                 Spacer()
                 Button(action: { }) {
-                    Image(systemName: "play.fill")
+                    Image(systemName: Strings.MusicPlayer.buttonPlay)
                         .resizable()
                         .foregroundColor(.black)
                         .frame(width: 25, height: 25)
                         .opacity(0.7)
                 }
                 Button(action: { }) {
-                    Image(systemName: "forward.fill")
+                    Image(systemName: Strings.MusicPlayer.buttonNext)
                         .resizable()
                         .frame(width: 25, height: 25)
                         .foregroundColor(.black)
