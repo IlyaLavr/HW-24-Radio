@@ -25,12 +25,12 @@ extension RadioScreenModel {
     ]
     
     static let smallSectionModels: [RadioScreenModel] = [
-        RadioScreenModel(name: "One mix", title: "Apple Music Поп", text: "Разные артисты", image: "7"),
-        RadioScreenModel(name: "GAGA Radio", title: "Apple Music Хард-рок", text: "Lady Gaga", image: "8"),
-        RadioScreenModel(name: "Fatboy Slim Radio", title: "Apple Music", text: "Fatboy Slim", image: "9"),
-        RadioScreenModel(name: "Medicine At Midnight", title: "Apple Music Хип-Хоп", text: "Run GO", image: "10"),
-        RadioScreenModel(name: "OWSLA Radio", title: "Apple Music Альтернатива", text: "Skrillex", image: "11"),
-        RadioScreenModel(name: "Young Money", title: "Apple Music Электроника", text: "Lil Wayne", image: "4")
+        RadioScreenModel(name: "One mix", title: "Apple Music Поп", text: "Разные артисты", image: "1"),
+        RadioScreenModel(name: "GAGA Radio", title: "Apple Music Хард-рок", text: "Lady Gaga", image: "2"),
+        RadioScreenModel(name: "Fatboy Slim Radio", title: "Apple Music", text: "Fatboy Slim", image: "3"),
+        RadioScreenModel(name: "Medicine At Midnight", title: "Apple Music Хип-Хоп", text: "Run GO", image: "4"),
+        RadioScreenModel(name: "OWSLA Radio", title: "Apple Music Альтернатива", text: "Skrillex", image: "5"),
+        RadioScreenModel(name: "Young Money", title: "Apple Music Электроника", text: "Lil Wayne", image: "6")
     ]
     
 }

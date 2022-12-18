@@ -14,6 +14,8 @@
 		09555429294F8E64005D5377 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09555428294F8E64005D5377 /* Model.swift */; };
 		0955542B294F8F00005D5377 /* BigSections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0955542A294F8F00005D5377 /* BigSections.swift */; };
 		0955542D294F9299005D5377 /* MusicPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0955542C294F9299005D5377 /* MusicPlayer.swift */; };
+		0955542F294F9354005D5377 /* SmallSections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0955542E294F9354005D5377 /* SmallSections.swift */; };
+		09555431294FA267005D5377 /* RadioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09555430294FA267005D5377 /* RadioView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		09555428294F8E64005D5377 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		0955542A294F8F00005D5377 /* BigSections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigSections.swift; sourceTree = "<group>"; };
 		0955542C294F9299005D5377 /* MusicPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayer.swift; sourceTree = "<group>"; };
+		0955542E294F9354005D5377 /* SmallSections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallSections.swift; sourceTree = "<group>"; };
+		09555430294FA267005D5377 /* RadioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,11 +63,13 @@
 			children = (
 				0955541A294F8AB8005D5377 /* HW_24_RadioApp.swift */,
 				0955541C294F8AB8005D5377 /* ContentView.swift */,
+				09555430294FA267005D5377 /* RadioView.swift */,
+				0955542A294F8F00005D5377 /* BigSections.swift */,
+				0955542E294F9354005D5377 /* SmallSections.swift */,
+				0955542C294F9299005D5377 /* MusicPlayer.swift */,
 				0955541E294F8AC3005D5377 /* Assets.xcassets */,
 				09555420294F8AC3005D5377 /* Preview Content */,
 				09555428294F8E64005D5377 /* Model.swift */,
-				0955542A294F8F00005D5377 /* BigSections.swift */,
-				0955542C294F9299005D5377 /* MusicPlayer.swift */,
 			);
 			path = "HW-24-Radio";
 			sourceTree = "<group>";
@@ -147,8 +153,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				09555429294F8E64005D5377 /* Model.swift in Sources */,
+				09555431294FA267005D5377 /* RadioView.swift in Sources */,
 				0955541D294F8AB8005D5377 /* ContentView.swift in Sources */,
 				0955542B294F8F00005D5377 /* BigSections.swift in Sources */,
+				0955542F294F9354005D5377 /* SmallSections.swift in Sources */,
 				0955542D294F9299005D5377 /* MusicPlayer.swift in Sources */,
 				0955541B294F8AB8005D5377 /* HW_24_RadioApp.swift in Sources */,
 			);
