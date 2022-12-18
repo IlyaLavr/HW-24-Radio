@@ -9,7 +9,7 @@ import Foundation
 
 struct RadioScreenModel {
     var name: String
-    var title: String
+    var title: String?
     var text: String?
     var image: String
 }
@@ -25,12 +25,12 @@ extension RadioScreenModel {
     ]
     
     static let smallSectionModels: [RadioScreenModel] = [
-        RadioScreenModel(name: "One mix", title: "Apple Music Поп", text: "Разные артисты", image: "1"),
-        RadioScreenModel(name: "GAGA Radio", title: "Apple Music Хард-рок", text: "Lady Gaga", image: "2"),
-        RadioScreenModel(name: "Fatboy Slim Radio", title: "Apple Music", text: "Fatboy Slim", image: "3"),
-        RadioScreenModel(name: "Medicine At Midnight", title: "Apple Music Хип-Хоп", text: "Run GO", image: "4"),
-        RadioScreenModel(name: "OWSLA Radio", title: "Apple Music Альтернатива", text: "Skrillex", image: "5"),
-        RadioScreenModel(name: "Young Money", title: "Apple Music Электроника", text: "Lil Wayne", image: "6")
+        RadioScreenModel(name: "Популярное", text: "Слушают прямо сейчас", image: "1"),
+        RadioScreenModel(name: "Музыка для расслабления", text: "Электронная медитация", image: "2"),
+        RadioScreenModel(name: "Классика", text: "Выдающиеся произведения", image: "3"),
+        RadioScreenModel(name: "Классика рока", text: "Гитара Топ", image: "4"),
+        RadioScreenModel(name: "Поп-музыка", text: "Поулярное", image: "5"),
+        RadioScreenModel(name: "2010-е", text: "Окунись в ностальгию", image: "6")
     ]
     
 }

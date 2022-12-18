@@ -29,15 +29,14 @@ struct SmallSections: View {
                             .cornerRadius(10)
                         VStack(alignment: .leading) {
                             Text(row.name)
-                                .lineLimit(1)
-                                .font(.subheadline)
+                                .bold()
                                 .padding(.leading)
                             Text(row.text ?? "")
-                                .lineLimit(1)
+                                .lineLimit(2)
                                 .padding(.leading)
                         }
                     }
-                    .padding(EdgeInsets(top: 0, leading: 20, bottom: 0, trailing: -150))
+                    .padding(EdgeInsets(top: 0, leading: 20, bottom: 0, trailing: -105))
                 }
                 
             }

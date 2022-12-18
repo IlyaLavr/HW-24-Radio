@@ -67,9 +67,9 @@
 				0955542A294F8F00005D5377 /* BigSections.swift */,
 				0955542E294F9354005D5377 /* SmallSections.swift */,
 				0955542C294F9299005D5377 /* MusicPlayer.swift */,
+				09555428294F8E64005D5377 /* Model.swift */,
 				0955541E294F8AC3005D5377 /* Assets.xcassets */,
 				09555420294F8AC3005D5377 /* Preview Content */,
-				09555428294F8E64005D5377 /* Model.swift */,
 			);
 			path = "HW-24-Radio";
 			sourceTree = "<group>";
