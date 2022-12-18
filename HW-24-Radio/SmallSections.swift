@@ -22,23 +22,22 @@ struct SmallSections: View {
                     .bold()
                     .padding(.leading, 20)
                 ForEach(models, id: \.name) { row in
-                    HStack(alignment: .top) {
+                    HStack {
                         Image(row.image)
                             .frame(width: 150, height: 150, alignment: .leading)
                             
                             .cornerRadius(10)
-                        VStack(alignment: .center) {
+                        VStack(alignment: .leading) {
                             Text(row.name)
                                 .lineLimit(1)
-                                .padding(.top, 40)
+                                .font(.subheadline)
+                                .padding(.leading)
                             Text(row.text ?? "")
                                 .lineLimit(1)
-                                .padding(.trailing)
-                                
-                                
+                                .padding(.leading)
                         }
                     }
-                    .padding(.leading, 20)
+                    .padding(EdgeInsets(top: 0, leading: 20, bottom: 0, trailing: -150))
                 }
                 
             }
