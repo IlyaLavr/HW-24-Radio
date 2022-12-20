@@ -10,7 +10,6 @@ import SwiftUI
 struct RadioBigSections: View {
     
     var models = RadioScreenModel.bigSectionModels
-    
     var columns = [
         GridItem(.fixed(280))
     ]
@@ -20,16 +19,16 @@ struct RadioBigSections: View {
             LazyHGrid(rows: columns) {
                 ForEach(models, id: \.name) { row in
                     VStack(alignment: .leading){
-                        Text(row.title)
+                        Text(row.title ?? "")
                             .foregroundColor(.gray)
                         Text(row.name)
                             .bold()
                         Text(row.text ?? "")
                         ZStack(alignment: .topLeading) {
-                        Image(row.image)
+                            Image(row.image)
                                 .resizable()
                                 .frame(width: 350, height: 240)
-                            .cornerRadius(10)
+                                .cornerRadius(10)
                             
                             Text(row.name)
                                 .foregroundColor(.white)

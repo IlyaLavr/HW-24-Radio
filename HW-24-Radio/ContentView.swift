@@ -9,28 +9,33 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-            TabView {
-               RadioView()
-                .tabItem {
-                    Image(systemName: "square.stack.fill")
-                    Text("Медиатека")
-                }
-                .tabItem {
-                    Image(systemName: "square.stack.fill")
-                    Text("Медиатека")
-                }
+        TabView {
+            ZStack(alignment: .bottom) {
                 RadioView()
-                .tabItem {
-                    Image(systemName: "dot.radiowaves.left.and.right")
-                    Text("Радио")
-                }
-                RadioView()
-                    .tabItem {
-                        Image(systemName: "magnifyingglass")
-                        Text("Поиск")
-                    }
+                MusicPlayerView()
             }
-            .accentColor(.red)
+            .tabItem {
+                Image(systemName: Strings.Tabbar.itemIconOne)
+                Text(Strings.Tabbar.itemOneName)
+            }
+            ZStack(alignment: .bottom) {
+                RadioView()
+                MusicPlayerView()
+            }
+            .tabItem {
+                Image(systemName: Strings.Tabbar.itemIconTwo)
+                Text(Strings.Tabbar.itemTwoName)
+            }
+            ZStack(alignment: .bottom) {
+                RadioView()
+                MusicPlayerView()
+            }
+            .tabItem {
+                Image(systemName: Strings.Tabbar.itemIconThree)
+                Text(Strings.Tabbar.itemThreeName)
+            }
+        }
+        .accentColor(.red)
     }
 }
 
