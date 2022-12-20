@@ -23,7 +23,7 @@ struct MusicPlayerView: View {
                     .frame(width: 50, height: 50)
                     .cornerRadius(7)
                     .opacity(0.3)
-    
+                
                 Text(Strings.MusicPlayer.textPlayer)
                 Spacer()
                 Button(action: { }) {

@@ -8,7 +8,6 @@
 import SwiftUI
 
 var models = RadioScreenModel.smallSectionModels
-
 var columns = [
     GridItem(.fixed(280))
 ]
@@ -25,7 +24,7 @@ struct SmallSections: View {
                     HStack {
                         Image(row.image)
                             .frame(width: 150, height: 150, alignment: .leading)
-                            
+                        
                             .cornerRadius(10)
                         VStack(alignment: .leading) {
                             Text(row.name)
@@ -38,9 +37,7 @@ struct SmallSections: View {
                     }
                     .padding(EdgeInsets(top: 0, leading: 20, bottom: 0, trailing: -105))
                 }
-                
             }
-            .listSectionSeparator(.visible)
         }
     }
 }

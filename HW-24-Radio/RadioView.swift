@@ -11,12 +11,12 @@ struct RadioView: View {
     var body: some View {
         NavigationView {
             ScrollView {
-            VStack {
-               RadioBigSections()
-                SmallSections()
+                VStack {
+                    RadioBigSections()
+                    SmallSections()
+                }
+                .navigationTitle("Радио")
             }
-            .navigationTitle("Радио")
-        }
         }
     }
 }
